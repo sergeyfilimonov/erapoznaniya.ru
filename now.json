@@ -1,0 +1,15 @@
+{
+  "name": "erapoznaniya.ru",
+  "alias": "erapoznaniya.ru",
+  "version": 2,
+  "github": {
+    "enabled": false
+  },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "dist" }
+    }
+  ]
+}
