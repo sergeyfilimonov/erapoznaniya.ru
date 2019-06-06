@@ -1,0 +1,12 @@
+section, .section {
+  @apply pl-6 pr-6;
+  h2 {
+    @apply text-4xl mb-6;
+  }
+}
+
+@screen lg {
+  section, .section {
+    @apply pl-0 pr-0;
+  }
+}

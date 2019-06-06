@@ -1,0 +1,7 @@
+.link {
+  @apply text-red-500;
+  @apply border-b border-red-400;
+  &:hover {
+    @apply border-b border-red-100;
+  }
+}

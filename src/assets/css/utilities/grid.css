@@ -1,0 +1,29 @@
+.grid-cols {
+  --space: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: calc( var(--space) * 1);
+  &--gap-small {
+    grid-gap: calc( var(--space) );
+  }
+  &--2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@screen lg {
+  .grid-cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: calc( var(--space) * 1);
+    &--gap-small {
+      grid-gap: calc( var(--space) );
+    }
+    &--2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &--4 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}

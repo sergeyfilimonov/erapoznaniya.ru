@@ -1,0 +1,57 @@
+.markdown {
+  p {
+    @apply mb-3;
+  }
+  h2 {
+    @apply text-xl my-4;
+  }
+  ul {
+    @apply mb-4;
+    li {
+      @apply list-disc ml-4;
+    }
+  }
+  table {
+    @apply my-8 text-left w-full;
+    thead {
+      tr {
+        @apply pb-2 mb-2 border-b-2 border-solid border-gray-300;
+      }
+    }
+    tbody {
+      tr {
+        @apply py-2 border-b border-solid border-gray-100;
+      }
+    }
+  }
+}
+
+@screen lg {
+  .markdown {
+    p {
+      @apply mb-4;
+    }
+    h2 {
+      @apply text-3xl my-6;
+    }
+    ul {
+      @apply mb-4;
+      li {
+        @apply list-disc ml-4;
+      }
+    }
+    table {
+      @apply my-8 text-left w-full;
+      thead {
+        tr {
+          @apply pb-2 mb-2 border-b-2 border-solid border-gray-300;
+        }
+      }
+      tbody {
+        tr {
+          @apply py-2 border-b border-solid border-gray-100;
+        }
+      }
+    }
+  }
+}
